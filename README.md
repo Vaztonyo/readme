@@ -34,7 +34,6 @@
 
 
 
- //start the server
   var server = app.listen(3000, function () {
 
   var host = server.address().address;
@@ -45,9 +44,9 @@
 });'''
 
 
-* Create a get route with a dynamic parameter and Use the HttpResponse object’s .send method to response to the browser
+* Create a get route with a dynamic parameter and Use the HttpResponse object’s .send method to response to the browser:
 
-// create a route
+
 app.get('/:number', function (req, res) {
 res.send('req.params.number');
 });
