@@ -50,3 +50,15 @@
 app.get('/:number', function (req, res) {
 res.send('req.params.number');
 });
+
+
+## What we can do with the app now:
+
+  * should be able to type in a url:
+
+   http://localhost:3001/reg_number/CY123345
+
+  it should print CY123345 in the browser.
+
+
+  
