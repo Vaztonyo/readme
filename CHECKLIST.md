@@ -1,14 +1,14 @@
 # Checklist For Registration Number Webapp:
 
-*Navigate to Your Projects Folder/*
+*Navigate to Your Projects Folder*
 
 ##Setting Up Project:
 
-*Create the folder where app will be created on the command line/*
+*Create the folder where app will be created on the command line*
 
 '''bootcamp@codexadmin-Inspiron-3543:~/Projects/$mkdir registration_numbers_webapp'''
 
-*Setup an ExpressJS server:/*
+*Setup an ExpressJS server:*
   First create a package.json file by running the following command in the terminal:
 
     '''npm init -y'''
