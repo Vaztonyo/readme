@@ -53,7 +53,7 @@
 * Create a get route with a dynamic parameter and Use the HttpResponse object’s .send method to response to the browser:
 
 
-app.get('/:number', function (req, res) {
+app.get('reg_number/:number', function (req, res) {
 res.send('req.params.number');
 });
 
